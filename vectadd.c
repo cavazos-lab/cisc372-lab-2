@@ -11,7 +11,7 @@ float * initArray(int n) {
 
   int i;
   for (i = 0; i < n; i++)
-    res[0] = rand();
+    res[i] = rand();
 
   return res;
 }
